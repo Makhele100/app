@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="468.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication19.FXMLController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ced8e1" height="404.0" layoutX="-2.0" layoutY="64.0" stroke="BLACK" strokeType="INSIDE" width="190.0" />
+      <Button fx:id="btn1" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn2" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn3" layoutX="14.0" layoutY="75.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn4" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn5" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="btn6" layoutX="15.0" layoutY="75.0" mnemonicParsing="false" text="Button" />
+      <CheckBox fx:id="chckb1" layoutX="86.0" layoutY="79.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="chckb2" layoutX="86.0" layoutY="79.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="chckb3" layoutX="86.0" layoutY="79.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="chckb4" layoutX="86.0" layoutY="79.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox fx:id="chckb5" layoutX="86.0" layoutY="79.0" mnemonicParsing="false" text="CheckBox" />
+      <ChoiceBox fx:id="choiceb1" layoutX="18.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice2" layoutX="19.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice3" layoutX="19.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice4" layoutX="19.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice5" layoutX="19.0" layoutY="116.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="choice6" layoutX="19.0" layoutY="116.0" prefWidth="150.0" />
+      <MenuButton fx:id="menub1" layoutX="17.0" layoutY="155.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Label fx:id="label1" layoutX="130.0" layoutY="159.0" text="Label" />
+      <Label fx:id="label2" layoutX="130.0" layoutY="159.0" text="Label" />
+      <Label fx:id="label3" layoutX="130.0" layoutY="159.0" text="Label" />
+      <Label fx:id="label4" layoutX="130.0" layoutY="159.0" text="Label" />
+      <Label fx:id="label5" layoutX="130.0" layoutY="159.0" text="Label" />
+      <MenuButton fx:id="menub2" layoutX="17.0" layoutY="155.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menub3" layoutX="17.0" layoutY="155.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menub4" layoutX="17.0" layoutY="155.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menub5" layoutX="17.0" layoutY="155.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <ImageView fx:id="img1" fitHeight="62.0" fitWidth="72.0" layoutX="15.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img2" fitHeight="62.0" fitWidth="72.0" layoutX="25.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img3" fitHeight="62.0" fitWidth="72.0" layoutX="25.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img4" fitHeight="62.0" fitWidth="72.0" layoutX="25.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="img5" fitHeight="62.0" fitWidth="72.0" layoutX="25.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" />
+      <PasswordField fx:id="pass1" layoutX="19.0" layoutY="269.0" promptText="password field" />
+      <PasswordField fx:id="pass2" layoutX="19.0" layoutY="269.0" promptText="password field" />
+      <PasswordField fx:id="pass3" layoutX="19.0" layoutY="269.0" promptText="password field" />
+      <PasswordField fx:id="pass4" layoutX="19.0" layoutY="269.0" promptText="password field" />
+      <PasswordField fx:id="pass5" layoutX="20.0" layoutY="269.0" promptText="password field" />
+      <RadioButton fx:id="radiob1" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <Text layoutX="24.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Image Viewer" />
+      <TextField fx:id="textf1" layoutX="20.0" layoutY="302.0" promptText="text field" />
+      <TextField fx:id="textf2" layoutX="20.0" layoutY="302.0" promptText="text field" />
+      <TextField fx:id="textf3" layoutX="19.0" layoutY="302.0" promptText="text field" />
+      <TextField fx:id="textf4" layoutX="19.0" layoutY="302.0" promptText="text field" />
+      <TextField fx:id="textf5" layoutX="20.0" layoutY="302.0" promptText="text field" />
+      <TextArea fx:id="texta1" layoutX="22.0" layoutY="334.0" prefHeight="62.0" prefWidth="150.0" promptText="text area" />
+      <TextArea fx:id="texta2" layoutX="22.0" layoutY="335.0" prefHeight="62.0" prefWidth="150.0" promptText="text area" />
+      <TextArea fx:id="texta3" layoutX="22.0" layoutY="335.0" prefHeight="62.0" prefWidth="150.0" promptText="text area" />
+      <TextArea fx:id="texa4" layoutX="23.0" layoutY="334.0" prefHeight="62.0" prefWidth="150.0" promptText="text area" />
+      <TextArea fx:id="texa5" layoutX="23.0" layoutY="334.0" prefHeight="62.0" prefWidth="150.0" promptText="text area" />
+      <Text fx:id="text1" layoutX="123.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="text2" layoutX="123.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="text3" layoutX="123.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="text4" layoutX="123.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="text5" layoutX="123.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <RadioButton fx:id="radiob2" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <RadioButton fx:id="radiob3" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <RadioButton fx:id="radiob4" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <RadioButton fx:id="radiob5" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <RadioButton fx:id="radiob6" layoutX="110.0" layoutY="234.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="66.0" text="RadioButton" />
+      <Circle fx:id="c1" fill="WHITE" layoutX="51.0" layoutY="428.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="r5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="91.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+      <Circle fx:id="c2" fill="WHITE" layoutX="51.0" layoutY="428.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c3" fill="WHITE" layoutX="51.0" layoutY="428.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c4" fill="WHITE" layoutX="51.0" layoutY="428.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="c5" fill="WHITE" layoutX="51.0" layoutY="428.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="r1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="91.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+      <Rectangle fx:id="r2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="91.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+      <Rectangle fx:id="r3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="91.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+      <Rectangle fx:id="r4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.0" layoutX="91.0" layoutY="407.0" stroke="BLACK" strokeType="INSIDE" width="79.0" />
+      <Line endX="421.0" layoutX="278.0" layoutY="64.0" startX="-100.0" />
+      <Text layoutX="118.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WebApp Maker">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="33.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.4116022099447514" centerY="0.490521327014218" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.057992201298475266" green="0.13161955773830414" blue="0.18421052396297455" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button fx:id="open" layoutX="534.0" layoutY="17.0" mnemonicParsing="false" onAction="#open" text="Open" />
+      <Button fx:id="close" layoutX="641.0" layoutY="17.0" mnemonicParsing="false" onAction="#close" text="Close" />
+      <Button fx:id="save" layoutX="589.0" layoutY="17.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <ImageView fx:id="img" fitHeight="71.0" fitWidth="122.0" layoutX="-1.0" onDragDetected="#img" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../desktop/Makhele's%20Delicious%20Corner/final/index/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
